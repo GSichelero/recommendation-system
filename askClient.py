@@ -42,9 +42,9 @@ elif user_has_pet == 'N':
 else:
     raise Exception("Resposta inválida!")
 
-user_department = int(input("Você está em qual departamento? (1 a 10)"))
+user_department = int(input("Você está em qual bloco? (1 a 10)"))
 if user_department > 10 or user_department < 1:
-    raise Exception("Departamento inválido!")
+    raise Exception("Bloco inválido!")
 
 user_hall = int(input("Você está em qual corredor? (1 a 10)"))
 if user_hall > 10 or user_hall < 1:
